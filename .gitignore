@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+
+# Virtual environments
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Results/artifacts
+results/
+
+# Generated data (riproducibili dal notebook)
+data/generated/
+
+# IDE/editor
+.vscode/
+
+# OS
+.DS_Store
+*.pdf
+

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-02-12",
+  "generated_dir": "data/generated",
+  "schema": {
+    "record": {
+      "lat": "float",
+      "lon": "float",
+      "demand": "float"
+    },
+    "filename_pattern": "users_n<N>_seed<S>.json"
+  },
+  "datasets": [
+    {
+      "file": "data/generated/users_n120_seed1.json",
+      "n_users": 120,
+      "seed": 1,
+      "count": 120
+    },
+    {
+      "file": "data/generated/users_n120_seed2.json",
+      "n_users": 120,
+      "seed": 2,
+      "count": 120
+    }
+  ]
+}

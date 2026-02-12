@@ -1,0 +1,12 @@
+[
+  {"name": "Milan", "lat": 45.4642, "lon": 9.1900},
+  {"name": "Frankfurt", "lat": 50.1109, "lon": 8.6821},
+  {"name": "Amsterdam", "lat": 52.3676, "lon": 4.9041},
+  {"name": "Paris", "lat": 48.8566, "lon": 2.3522},
+  {"name": "Madrid", "lat": 40.4168, "lon": -3.7038},
+  {"name": "Rome", "lat": 41.9028, "lon": 12.4964},
+  {"name": "Vienna", "lat": 48.2082, "lon": 16.3738},
+  {"name": "Zurich", "lat": 47.3769, "lon": 8.5417},
+  {"name": "London", "lat": 51.5074, "lon": -0.1278},
+  {"name": "Warsaw", "lat": 52.2297, "lon": 21.0122}
+]
