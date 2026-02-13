@@ -19,6 +19,7 @@ Given a set of candidate PoP sites (service centres) and a set of demand nodes (
 | 5 | **Simulated Annealing** | Metaheuristic | Probabilistic acceptance (Metropolis criterion) with geometric cooling schedule |
 | 6 | **k-Means** | Baseline | Continuous-centroid clustering (not constrained to candidate sites), used as a reference |
 | 7 | **CPLEX** (docplex) | Exact (deep-dive) | Same MILP formulation solved with the commercial IBM ILOG CPLEX solver |
+| 8 | **GUROBI** (gurobipy) | Exact (deep-dive) | Same MILP formulation solved with the commercial GUROBI solver (WLS via env vars) |
 
 ## Project Structure
 
@@ -51,6 +52,16 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+If you want to run the GUROBI section, configure the WLS credentials in `.env`:
+
+```bash
+cat > .env << 'EOF'
+GUROBI_WLSACCESSID=...
+GUROBI_WLSSECRET=...
+GUROBI_LICENSEID=...
+EOF
 ```
 
 ## Usage
