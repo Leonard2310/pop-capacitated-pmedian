@@ -21,6 +21,78 @@
       "n_users": 120,
       "seed": 2,
       "count": 120
+    },
+    {
+      "file": "data/generated/users_n240_seed0.json",
+      "n_users": 240,
+      "seed": 0,
+      "count": 240
+    },
+    {
+      "file": "data/generated/users_n240_seed1.json",
+      "n_users": 240,
+      "seed": 1,
+      "count": 240
+    },
+    {
+      "file": "data/generated/users_n240_seed2.json",
+      "n_users": 240,
+      "seed": 2,
+      "count": 240
+    },
+    {
+      "file": "data/generated/users_n300_seed0.json",
+      "n_users": 300,
+      "seed": 0,
+      "count": 300
+    },
+    {
+      "file": "data/generated/users_n300_seed1.json",
+      "n_users": 300,
+      "seed": 1,
+      "count": 300
+    },
+    {
+      "file": "data/generated/users_n300_seed2.json",
+      "n_users": 300,
+      "seed": 2,
+      "count": 300
+    },
+    {
+      "file": "data/generated/users_n600_seed0.json",
+      "n_users": 600,
+      "seed": 0,
+      "count": 600
+    },
+    {
+      "file": "data/generated/users_n600_seed1.json",
+      "n_users": 600,
+      "seed": 1,
+      "count": 600
+    },
+    {
+      "file": "data/generated/users_n600_seed2.json",
+      "n_users": 600,
+      "seed": 2,
+      "count": 600
+    },
+    {
+      "file": "data/generated/users_n1000_seed0.json",
+      "n_users": 1000,
+      "seed": 0,
+      "count": 1000
+    },
+    {
+      "file": "data/generated/users_n1000_seed1.json",
+      "n_users": 1000,
+      "seed": 1,
+      "count": 1000
+    },
+    {
+      "file": "data/generated/users_n1000_seed2.json",
+      "n_users": 1000,
+      "seed": 2,
+      "count": 1000
     }
   ]
 }

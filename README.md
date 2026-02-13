@@ -38,7 +38,7 @@ Given a set of candidate PoP sites (service centres) and a set of demand nodes (
 
 ## Data
 
-- **`data/pop_candidates.json`** — 10 European cities as candidate PoP service centres, each with geographic coordinates (lat, lon).
+- **`data/pop_candidates.json`** — 20 European cities as candidate PoP service centres, each with geographic coordinates (lat, lon).
 - **`data/user_anchors.json`** — Anchor cities around which demand nodes are randomly generated.
 - **`data/generated/`** — Synthetic user datasets, automatically created by the notebook via random jitter around anchor cities. Files follow the naming pattern `users_n<N>_seed<S>.json` and are regenerated if missing, ensuring full **reproducibility**.
 
@@ -69,11 +69,14 @@ All experimental parameters are centralised in the `CONFIG` dictionary inside th
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `n_users` | `[120]` | Number of demand nodes |
-| `p_values` | `[3, 5, 8]` | Values of *p* (centres to open) |
+| `n_users` | `[120, 300, 600, 1000]` | Number of demand nodes |
+| `p_values` | `[3, 5, 8, 10, 13, 15, 18, 20]` | Values of *p* (centres to open) |
 | `seeds` | `[0, 1, 2]` | Seeds for reproducibility |
 | `capacity.multiplier` | `1.3` | Slack over average demand per centre |
 | `capacity.heterogeneous` | `True` | Heterogeneous capacities across centres |
+| `cache.use_cache` | `True` | Load cached results if available |
+| `cache.force_recompute` | `False` | Ignore cache and recompute |
+| `cache.dir` | `results/cache` | Cache directory |
 
 ## Results
 

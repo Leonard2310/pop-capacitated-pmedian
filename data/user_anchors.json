@@ -6,5 +6,15 @@
   {"name": "Amsterdam", "lat": 52.3676, "lon": 4.9041},
   {"name": "Frankfurt", "lat": 50.1109, "lon": 8.6821},
   {"name": "Vienna", "lat": 48.2082, "lon": 16.3738},
-  {"name": "Warsaw", "lat": 52.2297, "lon": 21.0122}
+  {"name": "Warsaw", "lat": 52.2297, "lon": 21.0122},
+  {"name": "Berlin", "lat": 52.5200, "lon": 13.4050},
+  {"name": "Barcelona", "lat": 41.3851, "lon": 2.1734},
+  {"name": "Lisbon", "lat": 38.7223, "lon": -9.1393},
+  {"name": "Brussels", "lat": 50.8503, "lon": 4.3517},
+  {"name": "Prague", "lat": 50.0755, "lon": 14.4378},
+  {"name": "Budapest", "lat": 47.4979, "lon": 19.0402},
+  {"name": "Stockholm", "lat": 59.3293, "lon": 18.0686},
+  {"name": "Copenhagen", "lat": 55.6761, "lon": 12.5683},
+  {"name": "Dublin", "lat": 53.3498, "lon": -6.2603},
+  {"name": "Athens", "lat": 37.9838, "lon": 23.7275}
 ]
