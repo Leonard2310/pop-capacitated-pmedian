@@ -1,4 +1,6 @@
-# PoP Clustering via Capacitated p-Median
+# PoP Clustering with Capacitated p-Median
+
+Exact and heuristic optimization methods for telecom Point-of-Presence placement.
 
 Project for the **Combinatorial and Network Optimization Algorithms** course — M.Sc. in Computer Engineering.
 
